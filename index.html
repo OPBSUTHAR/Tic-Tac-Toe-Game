@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Tac-Toe</title>
+    <title>Tic-Tac-Toe XO Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Tic-Tac-Toe</h1>
+        <h1><span class="tic">Tic</span>-<span class="tac">Tac</span>-<span class="toe">Toe</span>-<span class="xos">XOs</span> Game</h1>
         <div id="status" class="status">Player X's Turn</div>
         <div class="board">
             <svg id="win-line" class="win-line"></svg>
             <div class="cell" data-index="0"></div>
-            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="1"></div>     
             <div class="cell" data-index="2"></div>
             <div class="cell" data-index="3"></div>
             <div class="cell" data-index="4"></div>
@@ -25,6 +25,15 @@
         </div>
         <button id="reset">New Game</button>
     </div>
+
+    <footer>
+  <div class="footer-wrapper">
+    <div class="scrolling-footer">
+      Developed By Omprakash Suthar with &hearts;, &copy; 2025 Tic Tac Toe XO Game
+    </div>
+  </div>
+</footer>
+
     <script src="script.js"></script>
 </body>
 </html>
